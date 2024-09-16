@@ -14,11 +14,11 @@ function AppLayout() {
 
             <Header />
 
-            <divz className="overflow-scroll">
+            <div className="overflow-scroll">
                 <main className="mx-auto max-w-3xl">
                     <Outlet />
                 </main>
-            </divz>
+            </div>
 
             <CartOverview />
         </div>
